@@ -16,8 +16,9 @@ $.getJSON(
         var total_cases = (data)[lastElement].Confirmed
         $(".total_cases").append(numberWithCommas(total_cases));
 
-        var total_deaths = data[lastElement].Confirmed
+        var total_deaths = data[lastElement].Deaths
         $(".total_deaths").append(numberWithCommas(total_deaths));
     }
 
 )
+
