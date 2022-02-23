@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  color: beige;
+}
+
+.cases_con {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.title {
+  font-size: x-large;
+  text-align: center;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.button_cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button_stat {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.button1 {
+  background: #cb4e4e;
+  color: #fff;
+  box-shadow: 0 6px #ab3c3c;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+  border: none;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.btn {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 15px 40px;
+  display: inline-block;
+  margin: 0px 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+}
+
+.button1:hover {
+  background-color: rgb(26, 26, 26);
+}
+
+.graph {
+  margin: auto;
+  margin-top: 50px;
+  background-color: grey;
+  height: 400px;
+  width: 80%;
+  align-self: center;
+}
+.subtext {
+  text-align: center;
+  margin: 0;
+  margin-top: -30px;
+  font-size: x-small;
+  color: rgb(99, 99, 99);
+}
+
+.test {
+  text-align: center;
+  padding: 200px 0;
+  color: black;
+  font-style: italic;
+  font-size: xx-small;
+}
+
+.country {
+  padding-left: 70px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.india {
+  padding-right: 70px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
